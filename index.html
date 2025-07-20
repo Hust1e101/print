@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Affiliate Marketing Course</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7fa;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .container {
+      background: white;
+      padding: 3rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 700px;
+      width: 100%;
+    }
+
+    h1 {
+      color: #0A64BC;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .glow-button {
+      position: relative;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      color: white;
+      background-color: #0A64BC;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .glow-button::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(10,100,188,0.4) 0%, rgba(10,100,188,0) 70%);
+      animation: rotateGlow 6s linear infinite;
+      z-index: -1;
+    }
+
+    .glow-button:hover {
+      background-color: #084d91;
+      transform: scale(1.05);
+    }
+
+    @keyframes rotateGlow {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media (min-width: 600px) {
+      .button-group {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Unlock the Secrets of Print on Demand</h1>
+    <p>
+You’ve probably heard about people making money with Print on Demand, but no one tells you the real steps—until now. This course is your behind-the-scenes guide to turning simple designs into passive income. I’ll show you exactly how to find winning products, create high-converting listings, and build a brand that sells—even if you’re starting from scratch. No fluff, no hype—just results.
+    </p>
+    <div class="button-group">
+      <a href="https://contentlocked.net/cl/i/42xd1j"><button class="glow-button">Join the Course</button></a>
+      <a href="https://appslocked.com/cl/i/8dpjqr"><button class="glow-button">Get the Ebook</button></a>
+    </div>
+  </div>
+</body>
+</html>
